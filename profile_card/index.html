@@ -1,0 +1,103 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Profile Card</title>
+    <style>
+        @import url("https://fonts.googleapis.com/css2?family=Nunito:wght@300&display=swap");
+        * {
+        margin: 0;
+        padding: 0;
+        font-family: "Nunito", sans-serif;
+        font-family: 'Montserrat', sans-serif;
+        }
+        body{
+          margin: 0;
+          padding: 0;
+          background-color: #a4bdb7;  
+        }
+        #position_box {
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        height: 100vh;
+        width: 100%;
+        }
+
+        #card {
+            margin-top: 10px;
+            text-align: center;
+            width: 350px;
+            height: fit-content;
+            background-color: #fff;
+            border-radius: 20px;
+            padding: 10px;
+            position: relative;
+            box-shadow: 0px 8px 12px rgb(60 64 67 / 15%), 0px 4px 4px rgb(60 64 67 / 30%);
+        }
+        .content {
+        margin: 15px 2px;
+        }
+        .profile{
+            width: 128px;
+            height: 128px;
+            background-color: #ccc;
+            margin: 15px auto;
+            border-radius: 50%;
+            border: 1px solid #6944ff;
+            display: grid;
+            place-items: center;
+        }
+        .profile img {
+            height: auto;
+            width: 120px;
+            border-radius: 50%;
+            display: block;
+            margin: auto;
+            }
+            .name {
+            font-size: 24px;
+            font-weight: bolder;
+            letter-spacing: 1px;
+            color: #6944ff;
+            margin-bottom: 5px;
+            }
+
+            .job_title {
+            font-size: 12px;
+            font-weight: bolder;
+            color: gray;
+            }
+
+            .job_discription {
+            font-size: 12px;
+            color: black;
+            margin: 10px 30px 10px;
+            }
+            .uemail{
+            font-size: 12px;
+            color: black;
+            margin-bottom: 5px;
+            }
+            .uphone{
+            font-size: 12px;
+            color: black;
+            }
+    </style>
+</head>
+<body>
+    <div id="position_box">
+        <div id="card">
+            <div class="content">
+                <div class="profile"><img src="https://i.postimg.cc/bryMmCQB/profile-image.jpg" alt="Profile Image"></div>
+                <p class="name">Bimal Ghosh</p>
+                <p class="job_title">Full Stack Developer</p>
+                <p class="job_discription">Computer science graduate eager to apply knowledge and skills to software development. Strong foundation in PHP and Python, eager to learn and grow.</p>
+                <div class="uemail"><b>Email:</b> bimal2ghosh@gmail.com</div>
+                <div class="uphone"><b>Phone:</b> +91-7602047578</div>
+            </div>
+        </div>
+      </div>
+</body>
+</html>
